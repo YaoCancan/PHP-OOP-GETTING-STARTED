@@ -1,6 +1,7 @@
 <?php
 /**
  * recursionPrint
+ * 什么
  */
 function index($n){
     if ($n > 0) {
