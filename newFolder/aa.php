@@ -1,7 +1,20 @@
 <?php
+
+
+
+
+
 /**
- * Created by PhpStorm.
- * User: CARL
- * Date: 2016/11/13
- * Time: 0:11
+ * new aa.php
  */
+
+
+function recursionPrint($n) {
+	if ($n>0){
+		return $n * recursionPrint($n-1);
+	}else{
+		return 1;
+	}
+}
+
+echo recursionPrint(4);
